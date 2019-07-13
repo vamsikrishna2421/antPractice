@@ -1,0 +1,23 @@
+lekkala@lekkala:~/Documents/antPractice/project1$ ant
+Buildfile: /home/lekkala/Documents/antPractice/project1/build.xml
+
+clean:
+   [delete] Deleting directory /home/lekkala/Documents/antPractice/project1/build
+
+compile:
+    [mkdir] Created dir: /home/lekkala/Documents/antPractice/project1/build/classes
+    [javac] /home/lekkala/Documents/antPractice/project1/build.xml:19: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/lekkala/Documents/antPractice/project1/build/classes
+
+jar:
+    [mkdir] Created dir: /home/lekkala/Documents/antPractice/project1/build/jar
+      [jar] Building jar: /home/lekkala/Documents/antPractice/project1/build/jar/HelloWorld.jar
+
+run:
+     [java] Hello World
+
+clean-build-run:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
