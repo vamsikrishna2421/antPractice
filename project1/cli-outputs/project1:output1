@@ -21,3 +21,13 @@ clean-build-run:
 BUILD SUCCESSFUL
 Total time: 1 second
 
+lekkala@lekkala:~/Documents/antPractice/project1$ ant only-run
+Buildfile: /home/lekkala/Documents/antPractice/project1/build.xml
+
+run:
+     [java] Hello World
+
+only-run:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
