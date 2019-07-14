@@ -125,7 +125,6 @@ Typically, the javadoc files are generated as a part of the release or package t
       basedir = "${build.dir}/classes"
       includes = "faxapp/util/**"
       excludes = "**/Test.class">
-      
       <manifest>
          <attribute name = "Main-Class" value = "com.tutorialspoint.util.FaxUtil"/>
       </manifest>
